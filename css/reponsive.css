@@ -9,4 +9,36 @@
     .nav-item-container a{
         margin-top: 20px;
     }
+    /* banner responsive */
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text,.banner-img{
+        width: 100%;
+       
+    
+    }
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text p{
+        font-size: 25px;
+    }
+    .fa-brands{
+        font-size: 30px;
+
+    }
+    .banner-text{
+        margin-bottom: 20px;
+
+    }
+    /* product responsive */
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    
+    
 }
+
+
